@@ -1,0 +1,16 @@
+{
+  "name": "psi-cypress",
+  "version": "1.0.0",
+  "description": "psi crm system ",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "test",
+    "cypress:chrome":"npx cypress run --browser chrome --spec cypress\\integration\\examples\\login.js --headed",
+    "cypress:edge":"npx cypress run --browser edge --spec cypress\\integration\\examples\\login.js --headed"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.13.0"
+  }
+}
