@@ -7,7 +7,7 @@ describe("login", () => {
     cy.get("#passwordRef").dblclick();
     cy.get("#passwordRef").type("123");
     cy.get("button").click();
-    cy.wait(4000);
+    cy.wait(5000);
   });
 
 
